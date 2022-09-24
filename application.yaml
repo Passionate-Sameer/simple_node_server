@@ -9,6 +9,7 @@ spec:
   source:
     repoURL: https://github.com/Passionate-Sameer/simple_node_server.git
     targetRevision: HEAD
+    path: dev
 
   destination:
     server: https://kubernetes.default.svc

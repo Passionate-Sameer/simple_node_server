@@ -12,7 +12,7 @@ spec:
         app: simple-node-server
     spec:
       containers:
-        - name: server-deployment
+        - name: simple-node-server
           image: smartsameer/node_server:1.0
           ports:
             - containerPort: 4000

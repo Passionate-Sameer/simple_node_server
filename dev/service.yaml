@@ -5,6 +5,8 @@ metadata:
 spec:
   selector:
     app: simple-node-server
+  type: ClusterIP
   ports:
     - port: 4000
+      protocol: TCP
       targetPort: 4000
